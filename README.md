@@ -3,8 +3,13 @@
 * Spring boot demo application with REST API for smart metering
 * When started available at: `http://localhost:9090`
 * Home page redirects to `swagger-ui` HTML page with endpoint documentation
-* Requires Java 1.8+ to run
+  * The UI can be used to execute requests
+  * For documentation about swagger/spring-fox, see https://springfox.github.io/springfox
+* Requires JDK 1.8+ to run
+  * tested on MacOS and ubuntu (GitHub CI)
 * Uses an in-memory `h2` database
+* Pre-loaded with sample data, see [Flyway db migration script](src/main/resources/db/migration/V002__init_data.sql)
+  * existing meter IDs: `1`, `2`, `3`
 
 ## Starting the application from console
 
