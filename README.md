@@ -3,6 +3,8 @@
 * Spring boot demo application with REST API for smart metering
 * When started available at: `http://localhost:9090`
 * Home page redirects to `swagger-ui` HTML page with endpoint documentation
+* Requires Java 1.8+ to run
+* Uses an in-memory `h2` database
 
 ## Starting the application from console
 
